@@ -118,3 +118,8 @@ CREATE TABLE `user` (
   `modified_by` int(11) NOT NULL,
   PRIMARY KEY (`userid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
+
+--
+-- Insert admin user in table `admin` ---- default username - "admin"  ---- default password - "admin"
+--
+INSERT INTO `admin` (`username`, `password`) VALUES ('admin', 'admin');
